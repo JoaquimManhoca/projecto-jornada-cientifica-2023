@@ -1,0 +1,17 @@
+footer{
+    background-color: rgb(34, 32, 32);
+    padding: 10px 0;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+footer ul li img{
+    width: 30px;
+    margin-left: 10px;
+}

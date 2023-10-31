@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.title_name{
+    color: red  ;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 50px;
+    display: flex;
+    justify-content: center; */
+}
+
+section{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.div{
+    background-color: rgb(17, 16, 17);
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    background-image: url(img/download\ \(4\).jpg);
+    background-color: rgb(71, 57, 52);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.two{
+    background-image: url(img/download\ \(2\).jpg);
+    background-color: rgb(94, 61, 61);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.three{
+    background-image: url(img/images\ \(3\).jpg);
+    background-color: rgb(32, 13, 13);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.four{
+    background-image: url(img/download.jpg);
+    background-color: rgb(77, 48, 48);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.five{
+    background-image: url(img/images\ \(1\).jpg);
+    background-color: rgb(32, 13, 13);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.six{
+    background-image: url(img/download\ \(1\).jpg);
+    background-color: rgb(73, 44, 44);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.seven{
+    background-image: url(img/images\ \(4\).jpg);
+    background-color: rgb(75, 53, 53);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.eight{
+    background-image: url(img/images\ \(2\).jpg);
+    background-color: rgb(32, 13, 13);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+.nine{
+    background-image: url(img/download\ \(8\).jpg);
+    background-color: rgb(27, 15, 15);
+    background-blend-mode: difference;
+    background-size: cover;
+    background-position: center;
+}

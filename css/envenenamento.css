@@ -1,0 +1,72 @@
+
+body{
+    /* background-color: lightgray; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.title{
+    background-color: rgb(58, 57, 57);
+    background-image:  url(../img/download\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+    color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    width: 80%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.v-longe-crinca{
+    display: flex;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.v-longe-crinca p{
+    width: 300px;
+}
+
+.v-longe-crinca-p{
+    margin-right: 200px;
+}
+
+.lista-cuidados{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 0;
+}
+.lista-cuidados div{
+    display: flex;
+}
+
+.Oquefazer{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+
+.medidas{
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}

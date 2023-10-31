@@ -1,0 +1,33 @@
+
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.title{
+    background-color: rgb(44, 43, 43);
+    background-image:  url(../img/images\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+    color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    width: 60%;
+    padding: 50px;
+}
+
+article p{
+    margin-bottom: 20px;
+}

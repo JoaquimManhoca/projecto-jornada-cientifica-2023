@@ -1,0 +1,68 @@
+body{
+    /* background-color:     lightgray; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.title{
+    background-color: rgb(44, 43, 43);
+    background-image:  url(../img/download\ \(2\).jpg);
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: difference;
+    color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    padding: 100px;
+    width: 80%;
+}
+
+.cudado1{
+    display: flex;
+}
+
+.cudado1 .div{
+    width: 400px;
+}
+.cudado2{
+    display: flex;
+    margin: 20px 0;
+}
+
+.cudado2 .div{
+    width: 400px;
+}
+
+.cuidado-1{
+    width: 300px;
+    margin-left: 20px;
+}
+.cuidado-2{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.atencao{
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+span{
+    color: black;
+}
